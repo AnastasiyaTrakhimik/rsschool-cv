@@ -24,11 +24,12 @@ At the moment, my main goal is to gain knowledge in the field of front-end and b
 * Openness
 * Sense of humor
 ## *Java Script code example:*
->let number = [1, 2, 3, 4, 5];\
->let string = ['Text', 'Audio', 'Video'];\
->let numberString = number.concat(string).reverse();\
->console.log(numberString);
->
+```let number = [1, 2, 3, 4, 5];
+let string = ['Text', 'Audio', 'Video'];
+let numberString = number.concat(string).reverse();
+console.log(numberString);
+```
+
 
 ## *Experience:*
 + BelItSoft Lab
