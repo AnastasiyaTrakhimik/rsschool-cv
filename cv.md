@@ -28,6 +28,8 @@ At the moment, my main goal is to gain knowledge in the field of front-end and b
 >let string = ['Text', 'Audio', 'Video'];\
 >let numberString = number.concat(string).reverse();\
 >console.log(numberString);
+>
+
 ## *Experience:*
 + BelItSoft Lab
 ## *Education:*
