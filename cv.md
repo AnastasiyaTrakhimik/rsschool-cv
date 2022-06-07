@@ -1,5 +1,5 @@
 # **Anastasiya Trakhimik**
-## *Contacts*:
+## *Contacts:*
 Location: Katowice, Poland\
 Phone: +48 539 400 889\
 Email: hancharyk.nastya@gmail.com\
@@ -23,13 +23,13 @@ At the moment, my main goal is to gain knowledge in the field of front-end and b
 * Kindness
 * Openness
 * Sense of humor
+
 ## *Java Script code example:*
 ```let number = [1, 2, 3, 4, 5];
 let string = ['Text', 'Audio', 'Video'];
 let numberString = number.concat(string).reverse();
 console.log(numberString);
 ```
-
 
 ## *Experience:*
 + BelItSoft Lab
