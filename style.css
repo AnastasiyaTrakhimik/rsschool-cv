@@ -239,23 +239,23 @@ html {
 }
 
 .contacts__descr--location::before {
-  background-image: url('../assets/img/icons/location-pin.png');
+  background-image: url('./assets/img/icons/location-pin.png');
 }
 
 .contacts__descr--phone::before {
-  background-image: url('../assets/img/icons/smartphone.png');
+  background-image: url('./assets/img/icons/smartphone.png');
 }
 
 .contacts__descr--email::before {
-  background-image: url('../assets/img/icons/message.png');
+  background-image: url('./assets/img/icons/message.png');
 }
 
 .contacts__descr--discord::before {
-  background-image: url('../assets/img/icons/discord.png');
+  background-image: url('./assets/img/icons/discord.png');
 }
 
 .contacts__descr--github::before {
-  background-image: url('../assets/img/icons/github.png');
+  background-image: url('./assets/img/icons/github.png');
 }
 
 section {
@@ -290,7 +290,7 @@ h2::before {
   width: 75px;
   left: 0;
   bottom: 0;
-  background-image: url(../assets/img/minus.png);
+  background-image: url('./assets/img/minus.png');
   background-repeat: no-repeat;
   background-size: 80px;
   background-position: center;
