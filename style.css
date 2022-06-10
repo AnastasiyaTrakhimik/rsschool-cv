@@ -110,7 +110,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.wrapper {
+.inner {
   display: flex;
   flex-wrap: wrap;
   background-repeat: no-repeat;
@@ -118,6 +118,7 @@ html {
   background-position: center;
   border-radius: 30px;
   box-shadow: 0 6px 15px rgba(0, 1, 1, 0.25);
+  background-color: #f7e6f4;
 }
 
 .header {
@@ -162,10 +163,10 @@ html {
 
 .menu__link:active {
   opacity: 0.5;
-} 
+}
 
 .profile {
-  padding: 50px 0;
+  padding: 100px 0 50px;
   width: 100%;
 }
 
@@ -179,13 +180,50 @@ html {
   text-transform: uppercase;
 }
 
+.profile__wrapper {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  z-index: 1;
+  margin-bottom: 60px;
+}
+
+.profile__wrapper:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  filter: blur(20px);
+  transform: scale(1.02);
+  background: linear-gradient(60deg, #f294ee, #c5a1e2, #5ad0f5);
+  background-size: 200% 200%;
+  animation: animateGlow 10s ease infinite;
+  background: linear-gradient(60deg, #745469, #9b88ae, #94dbed);
+}
+
+@keyframes animateGlow {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
 .profile__image {
   object-fit: cover;
-  border: 8px solid transparent;
-  border-image: linear-gradient(45deg, #9f52e3, #ffe0fd, #87dff5, #363838, #9f52e3, #87dff5, #ffe0fd, #363838);
-  border-image-slice: 1;
-  margin-bottom: 20px;
- opacity: 0.9;
+  border-radius: 20px;
+  opacity: 0.9;
 }
 
 .profile__heading {
@@ -297,7 +335,7 @@ h2::before {
 }
 
 .summary__text {
-  max-width: 800px;
+  max-width: 700px;
   width: 100%;
   font-weight: 500;
 }
