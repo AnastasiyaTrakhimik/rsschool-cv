@@ -200,10 +200,9 @@ html {
   margin: 0 auto;
   filter: blur(20px);
   transform: scale(1.02);
-  background: linear-gradient(60deg, #f294ee, #c5a1e2, #5ad0f5);
+  background: linear-gradient(90deg, #0fffc1, #7e0fff);
   background-size: 200% 200%;
   animation: animateGlow 10s ease infinite;
-  background: linear-gradient(60deg, #745469, #9b88ae, #94dbed);
 }
 
 @keyframes animateGlow {
